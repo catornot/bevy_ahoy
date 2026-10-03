@@ -9,6 +9,7 @@ pub mod prelude {
         bevy_ecs::prelude::*,
         bevy_enhanced_input::prelude::*,
         bevy_math::prelude::*,
+        bevy_shape::prelude::*,
         bevy_reflect::prelude::*,
         bevy_time::prelude::*,
         bevy_transform::prelude::*,
@@ -160,7 +161,7 @@ pub enum AhoySystems {
     WaterState,
     CustomPositionIntegration,
     Transform,
-    SpeculativeMargin::ZERO,
+    SpeculativeCcd::ZERO,
     CollidingEntities,
 )]
 pub struct CharacterController {
